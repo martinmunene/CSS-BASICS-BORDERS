@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*Css Borders styles*/
+
+div {
+    border-style: groove;
+    border-color: yellow;
+    /*border widths are (Thin, medium, thick, <length>-eg(10px))*/
+    border-width: thick;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 20px;
+}
+
+
+div.a{
+
+     /*Changing border style on each side)*/
+    border-top-style: groove;
+    border-right-style: dotted;
+    border-left-style: double;
+    border-bottom-style: solid;
+    border-color: green;
+    border-width: thick;
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    margin: 20px;
+}
+
+
+div.b{
+    /*Changing border color on each side)*/
+    border-top-color: black;
+    border-right-color: green;
+    border-left-color: double;
+    border-bottom-color: solid;
+    border-width: thick;
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: 20px;
+}
+
+/*CSS border shorthand  (border width, border color and Border style)*/
+div.c{
+    border: thick black groove;
+    
+}
+
+/*CSS border One value  (border width, border color and Border style) applies the 
+same style,width or color to all 4 side*/
+div.d{
+    border: thick black groove;
+    
+}
+
+
+
+/*CSS border Two values  (border width, border color and Border style) the first applies the 
+ style,width or color to Top and bottom, the second to the left and the right */
+div.e{
+    border-style: dotted double;
+    border-color: blue;
+  
+}
+
+/*CSS border Two values  (border width, border color and Border style) the first applies the 
+ style,width or color to Top and bottom, the second to the left and right, The third to the bottom */
+ div.f{
+    border-style: dotted double ridge;
+    border-color: green;
+
+}
+
+/*CSS border Two values  (border width, border color and Border style) the stles apply to the 
+  Top and right, bottom and left*/
+ div.g{
+    border-style: dotted double ridge inset;
+    border-color: rgb(104, 6, 91);
+
+}
